@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+/* Botão voltar */
+.voltar {
+    width: 10%;
+    height: 10%;
+}
+.voltar img {
+    height: 40px;
+    width: 40px;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    cursor: pointer;
+    border-radius: 20vh;
+}
+.voltar img:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* Formulário */
+input, label {
+    display: block;
+    width: 100%;
+}
+.cadastro {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 10px;
+    padding: 20px;
+}
+.cadastro h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.full-box {
+    flex: 1 1 100%;
+}
+.half-box {
+    flex: 1 1 45%;
+}
+.espaço {
+    margin-right: 2.5%;
+}
+label {
+    font-weight: bold;
+    font-size: .9rem;
+}
+input {
+    border-bottom: 4px solid #262626;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: .8rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+input:focus {
+    border-color: orange;
+}
+.button {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+.button:hover {
+    background-color:orange;
+}
